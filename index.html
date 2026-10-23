@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>HR Opportunities Board</title>
+<meta name="description" content="Open HR summer internships and HR case competitions for MBA students in India, with direct links. Updated twice a day.">
+<meta property="og:title" content="HR Opportunities Board">
+<meta property="og:description" content="Open HR internships and HR case competitions for MBA students in India, with direct links. Updated twice a day.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column — header with last-updated stamp, tabs, a tool row (search, sort, closing-soon), then listing cards grouped by stipend for internships */
+:root{
+  --bg:#F2F4F7; --surface:#FFFFFF; --sunk:#E9EDF2; --ink:#16202C; --muted:#5A6676; --line:#D6DCE4;
+  --accent:#3B4CC0; --accent-soft:#E5E8FA; --new:#B06F00; --new-soft:#FBEFD6;
+  --warn:#A8661A; --bad:#B03A3A; --bad-soft:#F6E1E1;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root{
+  --bg:#0E131A; --surface:#151C26; --sunk:#1B2430; --ink:#E5EAF1; --muted:#95A2B3; --line:#283342;
+  --accent:#8E9BFF; --accent-soft:#232A52; --new:#F0B44A; --new-soft:#3A2D12;
+  --warn:#E8A65A; --bad:#F08A8A; --bad-soft:#3C1C1F; color-scheme:dark }}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-block:max(28px, env(safe-area-inset-top, 0px)) 56px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:flex;flex-direction:column;gap:20px}
+header{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px 24px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,4.4vw,40px);line-height:1.05;margin:0;letter-spacing:-.015em;text-wrap:balance}
+.sub{color:var(--muted);margin:8px 0 0;max-width:62ch}
+.stamp{font-family:var(--mono);font-size:12.5px;color:var(--muted);text-align:right}
+@media (max-width:640px){.stamp{text-align:left}}
+.stamp b{color:var(--ink);font-weight:500}
+.tabs{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:10px;width:max-content;max-width:100%;overflow-x:auto}
+.tab{font:600 14px var(--body);border:0;background:transparent;color:var(--muted);padding:8px 14px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+.tab .n{font-family:var(--mono);font-weight:500;font-size:12px;margin-left:6px;color:var(--muted)}
+.tools{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.tools label{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--muted)}
+input[type=search],select{font:inherit;font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:7px;padding:7px 9px}
+input[type=search]{width:min(320px,100%)}
+.tools .grow{flex:1 1 220px;min-width:0}
+.tools .grow input{width:100%}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.subhead{font:600 12px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:4px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.card.soon{border-color:var(--warn)}
+.card.closed{opacity:.6}
+.top{display:flex;gap:8px;justify-content:space-between;align-items:flex-start}
+.card h2{font:600 16px/1.3 var(--body);margin:0;overflow-wrap:anywhere}
+.who{color:var(--muted);font-size:13.5px}
+.badge{font:600 10.5px var(--body);letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:999px;white-space:nowrap}
+.badge.new{background:var(--new-soft);color:var(--new)}
+.badge.urgent{background:var(--bad-soft);color:var(--bad)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13px;color:var(--muted)}
+.meta b{color:var(--ink);font-weight:500}
+.dl{font-variant-numeric:tabular-nums}
+.note{font-size:13.5px;margin:0;overflow-wrap:anywhere}
+.act{margin-top:auto;padding-top:4px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.act a{color:var(--accent);font-weight:600;font-size:14px;text-decoration:none}
+.act a:hover{text-decoration:underline}
+.src{font-size:12px;color:var(--muted)}
+.lowbox{border-top:1px solid var(--line);padding-top:14px}
+.lowbox summary{cursor:pointer;margin-bottom:12px}
+.empty{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:28px 16px;text-align:center;color:var(--muted)}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:4px}
+@media (prefers-reduced-motion: no-preference){ .card,.tab{transition:border-color .15s, background .15s} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>HR Opportunities Board</h1>
+      <p class="sub">Open HR internships and HR case competitions for MBA students in India. Every listing links straight to its application page.</p>
+    </div>
+    <div class="stamp" id="stamp">Updated twice a day, around 8:20 AM and 8:20 PM IST</div>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Listing type">
+    <button class="tab" role="tab" id="tab-internship" data-kind="internship" aria-selected="true">Internships<span class="n" id="n-internship">0</span></button>
+    <button class="tab" role="tab" id="tab-competition" data-kind="competition" aria-selected="false">HR Case Competitions<span class="n" id="n-competition">0</span></button>
+  </div>
+
+  <div class="tools">
+    <label class="grow" for="q"><span class="sr">Search</span><input type="search" id="q" placeholder="Company, role, city…"></label>
+    <label for="sort">Sort by
+      <select id="sort">
+        <option value="deadline">Deadline (soonest first)</option>
+        <option value="new">Newest added</option>
+        <option value="pay">Stipend / prize (highest first)</option>
+        <option value="org">Company A–Z</option>
+      </select>
+    </label>
+    <label for="soon"><input type="checkbox" id="soon"> Closing in 7 days</label>
+    <label for="closed"><input type="checkbox" id="closed"> Show closed</label>
+  </div>
+
+  <main id="main">
+    <p class="subhead" id="mainHead" hidden>Stipend ₹30,000+ a month, or not stated</p>
+    <div class="grid" id="grid"></div>
+    <div class="empty" id="empty">Loading listings…</div>
+    <details class="lowbox" id="lowBox" open hidden>
+      <summary class="subhead" id="lowSummary">Stipend under ₹30,000 a month</summary>
+      <div class="grid" id="gridLow"></div>
+    </details>
+  </main>
+
+  <footer>
+    <span>Listings are gathered from Unstop, Internshala and company career pages. Dates and stipends can change, so check the listing before you apply.</span>
+    <span>Internship dates: many roles are posted as full-time now. Check whether they fit your college's summer window.</span>
+  </footer>
+</div>
+
+<script>
+const state={kind:"internship",q:"",sort:"deadline",soon:false,closed:false,items:[],updated:null};
+const $=id=>document.getElementById(id);
+function el(tag,attrs,...kids){const n=document.createElement(tag);if(attrs)for(const[k,v]of Object.entries(attrs)){if(v==null||v===false)continue;if(k==="class")n.className=v;else if(k==="text")n.textContent=v;else n.setAttribute(k,v===true?"":v);}for(const c of kids){if(c==null)continue;n.append(c.nodeType?c:document.createTextNode(String(c)));}return n;}
+function safeUrl(u){try{const x=new URL(String(u));return(x.protocol==="https:"||x.protocol==="http:")?x.href:null;}catch(e){return null;}}
+function today(){const d=new Date();d.setHours(0,0,0,0);return d;}
+function daysLeft(iso){if(!iso||!/^\d{4}-\d{2}-\d{2}$/.test(iso))return null;return Math.round((new Date(iso+"T00:00:00")-today())/86400000);}
+function fmtDate(iso){const d=new Date(iso+(iso&&iso.length===10?"T00:00:00":""));return isNaN(d)?String(iso):d.toLocaleDateString("en-IN",{day:"numeric",month:"short"});}
+function fmtStamp(iso){const d=new Date(iso);return isNaN(d)?"":d.toLocaleString("en-IN",{day:"numeric",month:"short",hour:"numeric",minute:"2-digit",timeZone:"Asia/Kolkata"})+" IST";}
+function payValue(s){const nums=String(s||"").replace(/,/g,"").match(/\d+(\.\d+)?/g);if(!nums)return -1;let v=Math.max(...nums.map(Number));if(/lakh|lac|\dL\b/i.test(s)&&v<1000)v*=100000;else if(/\dK\b/i.test(s)&&v<1000)v*=1000;return v;}
+function isClosed(f){const d=daysLeft(f.deadline);return d!==null&&d<0;}
+
+function sorted(list){
+  const byNew=(a,b)=>String(b.foundAt||"").localeCompare(String(a.foundAt||""));
+  const key=f=>{const d=daysLeft(f.deadline);return d===null?1e6:(d<0?2e6-d:d);};
+  const by={deadline:(a,b)=>key(a)-key(b)||byNew(a,b),new:byNew,pay:(a,b)=>payValue(b.pay)-payValue(a.pay)||byNew(a,b),org:(a,b)=>String(a.org).localeCompare(String(b.org),"en",{sensitivity:"base"})||byNew(a,b)};
+  return list.slice().sort(by[state.sort]||by.deadline);
+}
+
+function card(f){
+  const d=daysLeft(f.deadline), closed=isClosed(f);
+  const fresh=f.foundAt&&(Date.now()-Date.parse(f.foundAt))<36*3600*1000;
+  let left=null;
+  if(d!==null&&!closed)left=d===0?"closes today":d===1?"1 day left":d+" days left";
+  const url=safeUrl(f.url);
+  const badge=closed?el("span",{class:"badge",text:"Closed"}):(d!==null&&d<=3)?el("span",{class:"badge urgent",text:left}):fresh?el("span",{class:"badge new",text:"New"}):null;
+  return el("article",{class:"card"+(closed?" closed":(d!==null&&d<=7?" soon":""))},
+    el("div",{class:"top"},el("div",{style:"min-width:0"},el("h2",{text:f.title||f.org}),el("div",{class:"who",text:f.org||""})),badge),
+    el("div",{class:"meta"},
+      f.location?el("span",null,el("b",{text:f.location})):null,
+      f.pay?el("span",null,f.kind==="competition"?"Prize ":"Stipend ",el("b",{text:f.pay})):null,
+      (f.deadline||f.deadlineText)?el("span",{class:"dl"},"Apply by ",el("b",{text:f.deadline?fmtDate(f.deadline):f.deadlineText}),left&&!(d<=3)?" ("+left+")":""):null),
+    f.note?el("p",{class:"note",text:f.note}):null,
+    el("div",{class:"act"},url?el("a",{href:url,target:"_blank",rel:"noopener noreferrer",text:"Apply / view listing ↗"}):el("span",{class:"src",text:"No direct link yet"}),f.source?el("span",{class:"src",text:f.source}):null));
+}
+
+function render(){
+  for(const k of["internship","competition"]){
+    $("tab-"+k).setAttribute("aria-selected",String(state.kind===k));
+    $("n-"+k).textContent=state.items.filter(f=>f.kind===k&&!isClosed(f)).length;
+  }
+  const q=state.q.trim().toLowerCase();
+  let list=state.items.filter(f=>f.kind===state.kind);
+  if(!state.closed)list=list.filter(f=>!isClosed(f));
+  if(state.soon)list=list.filter(f=>{const d=daysLeft(f.deadline);return d!==null&&d>=0&&d<=7;});
+  if(q)list=list.filter(f=>[f.title,f.org,f.location,f.note,f.source].join(" ").toLowerCase().includes(q));
+  list=sorted(list);
+  const split=state.kind==="internship";
+  const low=split?list.filter(f=>{const v=payValue(f.pay);return v>=0&&v<30000;}):[];
+  const high=split?list.filter(f=>!low.includes(f)):list;
+  $("grid").replaceChildren(...high.map(card));
+  $("gridLow").replaceChildren(...low.map(card));
+  $("mainHead").hidden=!split||!low.length||!high.length;
+  $("lowBox").hidden=!low.length;
+  $("lowSummary").textContent="Stipend under ₹30,000 a month ("+low.length+")";
+  const e=$("empty");
+  if(!high.length&&!low.length){e.hidden=false;e.textContent=q||state.soon?"Nothing matches these filters.":"No open listings right now. Check back after the next update.";}
+  else e.hidden=true;
+}
+
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>{state.kind=b.dataset.kind;history.replaceState(null,"","#"+(state.kind==="competition"?"competitions":"internships"));render();}));
+$("q").addEventListener("input",e=>{state.q=e.target.value;render();});
+$("sort").addEventListener("change",e=>{state.sort=e.target.value;render();});
+$("soon").addEventListener("change",e=>{state.soon=e.target.checked;render();});
+$("closed").addEventListener("change",e=>{state.closed=e.target.checked;render();});
+if(location.hash==="#competitions")state.kind="competition";
+
+fetch("data/listings.json?v="+Date.now(),{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json();}).then(d=>{
+  state.items=(d.listings||[]).filter(f=>f&&(f.kind==="internship"||f.kind==="competition"));
+  state.updated=d.updated;
+  if(d.updated)$("stamp").replaceChildren("Last updated ",el("b",{text:fmtStamp(d.updated)}),el("br"),"Updates twice a day, around 8:20 AM and 8:20 PM IST");
+  render();
+}).catch(()=>{$("empty").textContent="Couldn't load the listings. Refresh the page to try again.";});
+</script>
+</body>
+</html>
