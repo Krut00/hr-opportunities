@@ -1,0 +1,48 @@
+import re
+# recruiter name (as in SOURCES lists) -> regex matched against BSE company name (case-insensitive)
+ALIAS = {
+ "Hindustan Unilever": r"^hindustan unilever", "HUL": r"^hindustan unilever", "ITC": r"^itc ltd",
+ "Larsen & Toubro": r"^larsen & toubro ltd", "L&T": r"^larsen & toubro ltd", "Airtel": r"^bharti airtel",
+ "JSW": r"^jsw steel", "Reliance": r"^reliance industries", "Reliance Industries": r"^reliance industries",
+ "Reliance Retail": r"^reliance industries", "Tata Steel": r"^tata steel", "Asian Paints": r"^asian paints",
+ "Marico": r"^marico", "Dabur": r"^dabur india", "Pidilite": r"^pidilite", "Britannia": r"^britannia",
+ "Nestle": r"^nestle india", "Colgate-Palmolive": r"^colgate-palmolive", "Godrej Consumer Products": r"^godrej consumer",
+ "Godrej Properties": r"^godrej properties", "Godrej Industries": r"^godrej industries", "Godrej": r"^godrej (consumer|industries|properties)",
+ "Bajaj Auto": r"^bajaj auto", "Bajaj Finserv": r"^bajaj finserv", "Mahindra": r"^mahindra & mahindra ltd",
+ "TVS Motor": r"^tvs motor", "UPL": r"^upl ltd", "Vedanta": r"^vedanta ltd", "Cipla": r"^cipla", "Lupin": r"^lupin ltd",
+ "Sun Pharma": r"^sun pharmaceutical", "Dr Reddy's": r"^dr\. reddy", "Glenmark": r"^glenmark pharma",
+ "Maruti Suzuki": r"^maruti suzuki", "Hero MotoCorp": r"^hero motocorp", "Hero Group": r"^hero motocorp",
+ "Axis Bank": r"^axis bank", "ICICI Bank": r"^icici bank", "ICICI": r"^icici bank", "HDFC Bank": r"^hdfc bank",
+ "Kotak Mahindra Bank": r"^kotak mahindra bank", "ICICI Lombard": r"^icici lombard", "ICICI Prudential": r"^icici prudential life",
+ "ICICI Securities": r"^icici securities", "Bharat Petroleum Corporation Limited": r"^bharat petroleum",
+ "Hindustan Petroleum Corporation Limited": r"^hindustan petroleum", "UltraTech Cement": r"^ultratech cement",
+ "Tata Consumer Products": r"^tata consumer", "Titan": r"^titan company", "Emami": r"^emami ltd", "Berger Paints": r"^berger paints",
+ "Exide": r"^exide industries", "Infosys": r"^infosys ltd", "Wipro": r"^wipro", "Tata Consultancy Services": r"^tata consultancy",
+ "LTIMindtree": r"^ltimindtree", "Cummins": r"^cummins india", "Castrol": r"^castrol india", "Abbott": r"^abbott india",
+ "Procter & Gamble": r"^procter & gamble", "Hexaware": r"^hexaware", "Firstsource": r"^firstsource", "Swiggy": r"^swiggy",
+ "Meesho": r"^meesho", "Eternal": r"^eternal ltd", "Vodafone Idea": r"^vodafone idea", "Vodafone": r"^vodafone idea",
+ "Sheela Foam": r"^sheela foam", "Borosil": r"^borosil ltd", "Indorama Corporation": r"^indo rama synthetics",
+ "Gujarat Mineral Development Corporation": r"^gujarat mineral development", "DCM Shriram": r"^dcm shriram ltd",
+ "Arvind Limited": r"^arvind ltd", "Arvind Fashions": r"^arvind fashions", "Delhivery": r"^delhivery", "IndiGo": r"^interglobe aviation",
+ "Jio Financial Services": r"^jio financial", "Jindal Steel": r"^jindal steel", "Power Finance Corporation": r"^power finance corp",
+ "Sobha Realty": r"^sobha ltd", "BSE": r"^bse ltd", "Vedant Fashions": r"^vedant fashions", "CRISIL": r"^crisil",
+ "Adani": r"^adani enterprises", "Motilal Oswal": r"^motilal oswal financial", "Edelweiss": r"^edelweiss financial",
+ "Novartis": r"^novartis india", "National Payments Corporation of India": None, "Samsung": None,
+ "Larsen&Toubro": r"^larsen & toubro ltd", "Aditya Birla Capital": r"^aditya birla capital", "Amul": None,
+ "Tata Electronics": None, "Tata Motors": r"^tata motors", "Gillette": r"^gillette india", "Pine Labs": r"^pine labs",
+ "Bajaj Consumer Care": r"^bajaj consumer", "Policybazaar": r"^pb fintech", "MakeMyTrip": None, "IndiaMART": r"^indiamart",
+ "Ola Electric": r"^ola electric", "Ola": None, "Saint-Gobain": None, "IDFC FIRST Bank": r"^idfc first bank", "Hyundai Motors": r"^hyundai motor india",
+ "Honeywell": r"^honeywell automation", "Genpact": None, "HCLTech": r"^hcl technologies", "ABFRL": r"^aditya birla fashion",
+ "Varun": None, "myTVS": None, "Country Delight": None, "PharmEasy": None, "DTDC": None, "Yash Technologies": None,
+ "Cognizant": None, "Fujitsu": None, "MongoDB": None, "Capgemini": None, "Accenture": None,
+}
+GROUPS = {
+ "RPG": r"^(ceat|kec international|zensar technologies|rpg life sciences|harrisons malayalam)",  # group-level recruiters -> listed group companies
+ "Aditya Birla Group": r"^(grasim|hindalco|ultratech cement|aditya birla (capital|fashion|real estate|sun life amc)|vodafone idea|century textiles|birla carbon)",
+ "Tata Administrative Services": r"^(tata (steel|motors|consultancy|consumer|power|chemicals|communications|elxsi|investment|technologies|capital)|titan company|trent|voltas|the indian hotels|rallis india|nelco|tata motors passenger)",
+ "RPG Group": r"^(ceat|kec international|zensar technologies|rpg life sciences|harrisons malayalam)",
+ "RP-Sanjiv Goenka Group": r"^(cesc|firstsource|spencer's retail|pcbl chemical)",
+ "Hinduja Group": r"^(ashok leyland|indusind bank|gulf oil lubricants|hinduja global)",
+ "JSW Group": r"^jsw (steel|energy|infrastructure|cement|dulux)",
+}
+def norm(s): return re.sub(r'\s+',' ',s.lower().replace('limited','ltd')).strip()
