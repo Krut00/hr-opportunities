@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T08:25:00+05:30",
+ "updated": "2026-10-26T09:25:00+05:30",
  "listings": [
   {
    "kind": "competition",
@@ -11,9 +11,9 @@
    "deadlineText": "New edition not yet listed",
    "source": "Unstop",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "Link is the 2024 edition. Annual fest, so watch for the next one.",
    "id": "cc-buzzhr-iimj",
-   "url": "https://unstop.com/competitions/buzzhr-20-empyrean24-indian-institute-of-management-iim-jammu-912014",
-   "note": "Link is the 2024 edition. Annual fest, so watch for the next one."
+   "url": "https://unstop.com/competitions/buzzhr-20-empyrean24-indian-institute-of-management-iim-jammu-912014"
   },
   {
    "kind": "competition",
@@ -25,9 +25,9 @@
    "deadlineText": "Not announced",
    "source": "imtiim.com hub",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "Has an HR domain alongside marketing and supply chain. Next season not yet live on Unstop as of mid-Sept.",
    "id": "cc-itc-interrobang",
-   "url": "",
-   "note": "Has an HR domain alongside marketing and supply chain. Next season not yet live on Unstop as of mid-Sept."
+   "url": ""
   },
   {
    "kind": "competition",
@@ -39,9 +39,9 @@
    "deadlineText": "New edition not yet listed",
    "source": "Unstop",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "Link is the 2024 edition. Annual fest, so watch for the next one.",
    "id": "cc-tatva-iimr",
-   "url": "https://unstop.com/competitions/tatva-an-hr-based-case-study-competition-naqsh24-annual-fest-of-iim-rohtak-iim-rohtak-856595",
-   "note": "Link is the 2024 edition. Annual fest, so watch for the next one."
+   "url": "https://unstop.com/competitions/tatva-an-hr-based-case-study-competition-naqsh24-annual-fest-of-iim-rohtak-iim-rohtak-856595"
   },
   {
    "kind": "competition",
@@ -53,9 +53,331 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "Listing is for the 2025-26 edition. Check whether registration is still open.",
    "id": "cc-udbhav-iiml",
-   "url": "https://unstop.com/competitions/udbhav26-annual-flagship-hr-case-competition-manfest-varchasva-2025-26-iim-lucknow-1628386",
-   "note": "Listing is for the 2025-26 edition. Check whether registration is still open."
+   "url": "https://unstop.com/competitions/udbhav26-annual-flagship-hr-case-competition-manfest-varchasva-2025-26-iim-lucknow-1628386"
+  },
+  {
+   "kind": "internship",
+   "title": "Talent Acquisition Intern",
+   "org": "ABC Consultants",
+   "location": "Delhi, Gurgaon, Mumbai",
+   "pay": "₹10,000/month",
+   "deadline": "2026-11-21",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T09:00:00+05:30",
+   "note": "Well-known executive search firm. 3 months, in-office; start 22 Oct–26 Nov. Full-time now; check dates.",
+   "id": "internshala-abc-consultants-talent-acquisition-intern",
+   "url": "https://internshala.com/internship/detail/talent-acquisition-internship-in-multiple-locations-at-abc-consultants1792649692"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Acadecraft Private Limited",
+   "location": "Noida",
+   "pay": "₹5,000–7,000/month",
+   "deadline": "2026-11-08",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-24T08:22:35+05:30",
+   "note": "6-month in-office recruitment-focused HR role (sourcing, screening, scheduling); 6 openings. Full-time now; check dates.",
+   "id": "internshala-acadecraft-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-noida-at-acadecraft-private-limited1791528754"
+  },
+  {
+   "kind": "internship",
+   "title": "HR Operations & Talent Acquisition Associate Intern",
+   "org": "BCloud Global Services",
+   "location": "Gurgaon",
+   "pay": "₹15,000/month",
+   "deadline": "2026-11-21",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T09:00:00+05:30",
+   "note": "6 months, in-office; PPO up to 3.5 LPA. Full-time now; check dates.",
+   "id": "internshala-bcloud-hr-operations-talent-acquisition-associate",
+   "url": "https://internshala.com/internship/detail/hr-operations-and-talent-acquisition-associate-internship-in-gurgaon-at-bcloud-global-services1792642334"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Cloudphysician Healthcare",
+   "location": "Bangalore",
+   "pay": "₹20,000/month",
+   "deadline": "2026-10-30",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "6 months, in-office; recruitment and onboarding support. Full-time now; check dates.",
+   "id": "internshala-cloudphysician-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-cloudphysician-healthcare-pvt-ltd1790758214"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Collective Artists Network",
+   "location": "Bangalore",
+   "pay": "₹10,000/month",
+   "deadline": "2026-11-07",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "3 months; onboarding, HRIS, payroll reports; PG in HR preferred. Full-time now; check dates.",
+   "id": "internshala-collective-artists-network-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-collective-artists-network1791440968"
+  },
+  {
+   "kind": "internship",
+   "title": "HR – People & Culture Intern",
+   "org": "CometChat",
+   "location": "Mumbai",
+   "pay": "₹12,000–20,000/month",
+   "deadline": "2026-11-21",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-24T20:23:49+05:30",
+   "note": "6 months: recruitment, onboarding, engagement, culture work. Full-time now; check dates.",
+   "id": "internshala-cometchat-hr-people-culture-intern",
+   "url": "https://internshala.com/internship/detail/hr--people-culture-internship-in-mumbai-at-cometchat1792666098"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "GrayQuest Education Finance",
+   "location": "Mumbai (Hybrid)",
+   "pay": "₹15,000–20,000/month",
+   "deadline": "2026-11-14",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-24T20:23:49+05:30",
+   "note": "6 months: recruitment, HR ops and engagement at a fintech. Full-time now; check dates.",
+   "id": "internshala-grayquest-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-grayquest-education-finance-private-limited1792047201"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Internshala",
+   "location": "Gurgaon",
+   "pay": "₹15,000/month",
+   "deadline": "2026-11-15",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T09:00:00+05:30",
+   "note": "3 months, full-time in-office; start by 20 Nov. PPO up to 3.6 LPA. Full-time now; check dates.",
+   "id": "internshala-internshala-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-gurgaon-at-internshala1792151782"
+  },
+  {
+   "kind": "internship",
+   "title": "Talent Acquisition Intern",
+   "org": "IQOL Technologies",
+   "location": "Bangalore",
+   "pay": "₹20,000/month + ₹4,000 per hire",
+   "deadline": "2026-11-08",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "3 months, in-office; MBA/PGDM HR wanted; PPO 4–8 LPA possible. Full-time now; check dates.",
+   "id": "internshala-iqol-technologies-talent-acquisition-intern",
+   "url": "https://internshala.com/internship/detail/talent-acquisition-internship-in-bangalore-at-iqol-technologies1791541958"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Kyoren Labs",
+   "location": "Navi Mumbai",
+   "pay": "₹15,000–20,000/month",
+   "deadline": "2026-11-22",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-24T20:23:49+05:30",
+   "note": "6 months, ~80% recruiting and 20% HR ops. Full-time now; check dates.",
+   "id": "internshala-kyoren-labs-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-navi-mumbai-at-kyoren-labs-private-limited1792722956"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern – HR Policy",
+   "org": "Lithium Urban Technologies",
+   "location": "Bangalore",
+   "pay": "₹15,000–20,000/month",
+   "deadline": "2026-10-31",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "3 months; drafting HR policies and researching labour regulations; MBA preferred. Full-time now; check dates.",
+   "id": "internshala-lithium-urban-technologies-hr-policy-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-lithium-urban-technologies-private-limited1790858173"
+  },
+  {
+   "kind": "internship",
+   "title": "Talent Acquisition Intern",
+   "org": "LUNA",
+   "location": "Delhi, Gurgaon",
+   "pay": "₹25,000–40,000/month",
+   "deadline": "2026-11-18",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T09:00:00+05:30",
+   "note": "Health-intelligence startup; high stipend. 6 months, in-office; start by 20 Nov. Full-time now; check dates.",
+   "id": "internshala-luna-talent-acquisition-intern",
+   "url": "https://internshala.com/internship/detail/talent-acquisition-internship-in-multiple-locations-at-luna1792430887"
+  },
+  {
+   "kind": "internship",
+   "title": "Recruitment & Talent Acquisition Intern",
+   "org": "Michael Page International Recruitment",
+   "location": "Mumbai",
+   "pay": "₹5,000–7,000/month",
+   "deadline": "2026-11-13",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-23T09:00:00+05:30",
+   "note": "3-month in-office TA role at a global recruitment firm; Mumbai-based candidates only. Full-time now; check dates.",
+   "id": "internshala-michael-page-recruitment-talent-acquisition-intern",
+   "url": "https://internshala.com/internship/detail/recruitment-talent-acquisition-internship-in-mumbai-at-michael-page-international-recruitment1791917814"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Niwas Housing Finance",
+   "location": "Bangalore",
+   "pay": "₹10,000/month",
+   "deadline": "2026-11-22",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-23T09:00:00+05:30",
+   "note": "2-month in-office generalist HR role (recruitment, onboarding, engagement, exits); MBA (HR) welcome. Full-time now; check dates.",
+   "id": "internshala-niwas-housing-finance-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-niwas-housing-finance1792722069"
+  },
+  {
+   "kind": "internship",
+   "title": "Talent Acquisition Intern",
+   "org": "Purplle",
+   "location": "Mumbai, Thane, Navi Mumbai",
+   "pay": "₹20,000–25,000/month",
+   "deadline": "2026-11-14",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T20:23:03+05:30",
+   "note": "6 months, in-office; recruiting, sourcing and hiring dashboards. Start by 19 Nov 2026. Full-time now; check dates.",
+   "id": "internshala-purplle-talent-acquisition-intern",
+   "url": "https://internshala.com/internship/detail/talent-acquisition-internship-in-multiple-locations-at-purplle1792043246"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Raam Group",
+   "location": "Hyderabad",
+   "pay": "₹15,000/month",
+   "deadline": "2026-11-13",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-23T09:00:00+05:30",
+   "note": "3-month in-office recruitment role (sourcing, candidate calls, interview scheduling); 15 openings. Full-time now; check dates.",
+   "id": "internshala-raam-group-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-hyderabad-at-raam-group1791964201"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "SmartEd Innovations",
+   "location": "Bangalore",
+   "pay": "₹14,000–15,000/month",
+   "deadline": "2026-11-04",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "6 months; recruitment, onboarding, exits, HR data in Excel; job offer up to 5 LPA possible. Full-time now; check dates.",
+   "id": "internshala-smarted-innovations-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-smarted-innovations1791199598"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "SRUTHI TOTAL HR Solutions",
+   "location": "Chennai",
+   "pay": "₹15,000–17,000/month",
+   "deadline": "2026-11-20",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-23T09:00:00+05:30",
+   "note": "3-month in-office recruitment and onboarding role; 10 openings. Full-time now; check dates.",
+   "id": "internshala-sruthi-total-hr-solutions-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-chennai-at-sruthi-total-hr-solutions-private-limited1792567813"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "TeamLease Regtech",
+   "location": "Pune",
+   "pay": "₹10,000–15,000/month",
+   "deadline": "2026-10-31",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "6 months; end-to-end recruitment and HR ops; MBA (HR) preferred. Full-time now; check dates.",
+   "id": "internshala-teamlease-regtech-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-pune-at-teamlease-regtech1790852962"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "TransOrg Analytics",
+   "location": "Mumbai",
+   "pay": "₹10,000/month",
+   "deadline": "2026-11-05",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T20:23:03+05:30",
+   "note": "6 months, in-office, Mumbai-based candidates only; recruitment, onboarding, HR admin. Full-time now; check dates.",
+   "id": "internshala-transorg-analytics-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-transorg-analytics1791267431"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "Uboard India Limited",
+   "location": "Delhi",
+   "pay": "₹12,000–18,000/month (incl. incentive)",
+   "deadline": "2026-11-13",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T09:00:00+05:30",
+   "note": "3 months, in-office; HR and recruitment. PPO up to 2.5 LPA. Full-time now; check dates.",
+   "id": "internshala-uboard-india-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-delhi-at-uboard-india-limited1791978780"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resources (HR) Intern",
+   "org": "UniAcco",
+   "location": "Mumbai",
+   "pay": "₹10,000–15,000/month",
+   "deadline": "2026-11-21",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-24T20:23:49+05:30",
+   "note": "3 months supporting the Head of HR Ops with projects and reports. Full-time now; check dates.",
+   "id": "internshala-uniacco-human-resources-hr-intern",
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-uniacco1792671965"
+  },
+  {
+   "kind": "internship",
+   "title": "Employee Wellness Intern",
+   "org": "Visit Health",
+   "location": "Gurgaon",
+   "pay": "₹10,000–15,000/month",
+   "deadline": "2026-11-20",
+   "deadlineText": "",
+   "source": "Internshala",
+   "foundAt": "2026-10-25T09:00:00+05:30",
+   "note": "6 months, in-office; wellness programs, Excel analysis, employee engagement. Full-time now; check dates.",
+   "id": "internshala-visit-health-employee-wellness-intern",
+   "url": "https://internshala.com/internship/detail/employee-wellness-internship-in-gurgaon-at-visit-health-private-limited1792546240"
   },
   {
    "kind": "internship",
@@ -67,9 +389,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T08:25:00+05:30",
+   "note": "6-month HRBP-style role (comp, L&D, engagement, HR metrics) at a consulting firm. Starts by 13 Nov. Full-time now; check dates.",
    "id": "internshala-zinnov-management-consulting-human-resources-hr-intern",
-   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-zinnov-management-consulting1791368475",
-   "note": "6-month HRBP-style role (comp, L&D, engagement, HR metrics) at a consulting firm. Starts by 13 Nov. Full-time now; check dates."
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-zinnov-management-consulting1791368475"
   },
   {
    "kind": "internship",
@@ -81,9 +403,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "3 months. Check the start date fits April–June.",
    "id": "is-caratlane-hrops",
-   "url": "https://internshala.com/internship/detail/hr-operations-internship-in-multiple-locations-at-caratlane-trading-private-limited1792581368",
-   "note": "3 months. Check the start date fits April–June."
+   "url": "https://internshala.com/internship/detail/hr-operations-internship-in-multiple-locations-at-caratlane-trading-private-limited1792581368"
   },
   {
    "kind": "internship",
@@ -95,9 +417,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "6 months, longer than the April–June window. Ask if a shorter stint is possible.",
    "id": "is-justdial-hra",
-   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-chennai-at-justdial-limited1790159088",
-   "note": "6 months, longer than the April–June window. Ask if a shorter stint is possible."
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-chennai-at-justdial-limited1790159088"
   },
   {
    "kind": "internship",
@@ -109,9 +431,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "3 months. Check the start date fits April–June.",
    "id": "is-loadshare-hr",
-   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-loadshare-networks-private-limited1790839743",
-   "note": "3 months. Check the start date fits April–June."
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-loadshare-networks-private-limited1790839743"
   },
   {
    "kind": "internship",
@@ -123,9 +445,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "3 months, manufacturing company. Check the start date fits April–June.",
    "id": "is-rak-hr",
-   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-rak-ceramics1790824531",
-   "note": "3 months, manufacturing company. Check the start date fits April–June."
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-bangalore-at-rak-ceramics1790824531"
   },
   {
    "kind": "internship",
@@ -137,9 +459,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "3 months. Check the start date fits April–June.",
    "id": "is-tci-hr",
-   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-gurgaon-at-transport-corporation-of-india-limited1792141656",
-   "note": "3 months. Check the start date fits April–June."
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-gurgaon-at-transport-corporation-of-india-limited1792141656"
   },
   {
    "kind": "internship",
@@ -151,9 +473,9 @@
    "deadlineText": "",
    "source": "Internshala",
    "foundAt": "2026-10-23T00:40:00+05:30",
+   "note": "3 months. Check the start date fits April–June.",
    "id": "is-vi-hr",
-   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-vi-vodafone-idea1791462871",
-   "note": "3 months. Check the start date fits April–June."
+   "url": "https://internshala.com/internship/detail/human-resources-hr-internship-in-mumbai-at-vi-vodafone-idea1791462871"
   },
   {
    "kind": "competition",
@@ -165,9 +487,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:33:15+05:30",
+   "note": "Teams of 2–4 from same institute, MBA/PGDM. Quiz, HR simulation, deck, then finale at DS Group HQ. Possible PPIs.",
    "id": "unstop-ds-group-trendsetter-5-0-hr-track",
-   "url": "https://unstop.com/competitions/crp-trendsetter-50-human-resources-track-trendsetter-50-ds-group-1763627",
-   "note": "Teams of 2–4 from same institute, MBA/PGDM. Quiz, HR simulation, deck, then finale at DS Group HQ. Possible PPIs."
+   "url": "https://unstop.com/competitions/crp-trendsetter-50-human-resources-track-trendsetter-50-ds-group-1763627"
   },
   {
    "kind": "competition",
@@ -179,9 +501,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "XLRI's HR flagship: EVP, job fit, performance management, engagement, retention. Teams of 2–4.",
    "id": "us-1746068",
-   "url": "https://unstop.com/competitions/war-of-wits-hr-flagship-event-2026-ensemble-valhalla-2026-xavier-school-of-management-xlri-1746068",
-   "note": "XLRI's HR flagship: EVP, job fit, performance management, engagement, retention. Teams of 2–4."
+   "url": "https://unstop.com/competitions/war-of-wits-hr-flagship-event-2026-ensemble-valhalla-2026-xavier-school-of-management-xlri-1746068"
   },
   {
    "kind": "competition",
@@ -193,9 +515,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Individual entry. Mixed business and people cases, so only partly HR.",
    "id": "us-1762682",
-   "url": "https://unstop.com/competitions/business-people-case-challenge-2026-iit-delhi-1762682",
-   "note": "Individual entry. Mixed business and people cases, so only partly HR."
+   "url": "https://unstop.com/competitions/business-people-case-challenge-2026-iit-delhi-1762682"
   },
   {
    "kind": "competition",
@@ -207,9 +529,23 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "HR article contest, not a case. Theme: what really drives people at work beyond pay. Quick resume add.",
    "id": "us-1765708",
-   "url": "https://unstop.com/competitions/call-for-hr-articles-impressions-october-2026-iim-rohtak-1765708",
-   "note": "HR article contest, not a case. Theme: what really drives people at work beyond pay."
+   "url": "https://unstop.com/competitions/call-for-hr-articles-impressions-october-2026-iim-rohtak-1765708"
+  },
+  {
+   "kind": "internship",
+   "title": "HR Internship",
+   "org": "Artland",
+   "location": "Mumbai",
+   "pay": "₹5,000–8,000/month",
+   "deadline": "2026-10-31",
+   "deadlineText": "",
+   "source": "Unstop",
+   "foundAt": "2026-10-26T10:00:00+05:30",
+   "note": "6 months, part-time, in-office at Dadar; some HR experience preferred. Full-time now; check dates.",
+   "id": "us-1768150",
+   "url": "https://unstop.com/internships/hr-internship-artland-1768150"
   },
   {
    "kind": "internship",
@@ -221,9 +557,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Full-time now; check dates.",
    "id": "us-1769651",
-   "url": "https://unstop.com/internships/hr-internship-air-g-international-1769651",
-   "note": "Full-time now; check dates."
+   "url": "https://unstop.com/internships/hr-internship-air-g-international-1769651"
   },
   {
    "kind": "internship",
@@ -235,9 +571,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Auto-components manufacturer. Full-time now; check dates.",
    "id": "us-1769804",
-   "url": "https://unstop.com/internships/hr-internship-talent-acquisition-hr-operations-mahle-anand-filter-systems-private-limited-1769804",
-   "note": "Auto-components manufacturer. Full-time now; check dates."
+   "url": "https://unstop.com/internships/hr-internship-talent-acquisition-hr-operations-mahle-anand-filter-systems-private-limited-1769804"
   },
   {
    "kind": "internship",
@@ -249,9 +585,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T08:25:00+05:30",
+   "note": "Generalist HR: job postings, screening, onboarding, HRIS updates, verification, policy docs. Full-time now; check dates.",
    "id": "us-1769846",
-   "url": "https://unstop.com/internships/human-resource-internship-letzstepin-private-limited-1769846",
-   "note": "Generalist HR: job postings, screening, onboarding, HRIS updates, verification, policy docs. Full-time now; check dates."
+   "url": "https://unstop.com/internships/human-resource-internship-letzstepin-private-limited-1769846"
   },
   {
    "kind": "internship",
@@ -263,9 +599,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Manufacturing company. Full-time now; check dates.",
    "id": "us-1770631",
-   "url": "https://unstop.com/internships/human-resources-internship-wireworks-division-of-infiniti-power-private-limited-1770631",
-   "note": "Manufacturing company. Full-time now; check dates."
+   "url": "https://unstop.com/internships/human-resources-internship-wireworks-division-of-infiniti-power-private-limited-1770631"
   },
   {
    "kind": "internship",
@@ -277,9 +613,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Full-time now; check dates.",
    "id": "us-1770678",
-   "url": "https://unstop.com/internships/hr-internship-orvionar-tech-solutions-1770678",
-   "note": "Full-time now; check dates."
+   "url": "https://unstop.com/internships/hr-internship-orvionar-tech-solutions-1770678"
   },
   {
    "kind": "internship",
@@ -291,9 +627,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T08:25:00+05:30",
+   "note": "2-month in-office recruitment/onboarding role: sourcing, screening, interview coordination, HR admin. Full-time now; check dates.",
    "id": "us-1770818",
-   "url": "https://unstop.com/internships/human-resource-and-talent-management-internship-space-education-foundation-1770818",
-   "note": "2-month in-office recruitment/onboarding role: sourcing, screening, interview coordination, HR admin. Full-time now; check dates."
+   "url": "https://unstop.com/internships/human-resource-and-talent-management-internship-space-education-foundation-1770818"
   },
   {
    "kind": "internship",
@@ -305,9 +641,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Resource and bench management in a consulting firm. Full-time now; check dates.",
    "id": "us-1770922",
-   "url": "https://unstop.com/internships/hr-internship-capco-1770922",
-   "note": "Resource and bench management in a consulting firm. Full-time now; check dates."
+   "url": "https://unstop.com/internships/hr-internship-capco-1770922"
   },
   {
    "kind": "internship",
@@ -319,9 +655,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "SaaS company. Apprenticeship, so likely longer than April–June; check terms.",
    "id": "us-1770924",
-   "url": "https://unstop.com/internships/talent-acquisition-apprentice-highlevel-1770924",
-   "note": "SaaS company. Apprenticeship, so likely longer than April–June; check terms."
+   "url": "https://unstop.com/internships/talent-acquisition-apprentice-highlevel-1770924"
   },
   {
    "kind": "competition",
@@ -333,9 +669,23 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Postgraduate/MBA only, teams of 2–3. Registration closes 24 Oct, so act today.",
    "id": "us-1771055",
-   "url": "https://unstop.com/competitions/the-good-the-bad-and-the-business-hr-track-the-good-the-bad-and-the-business-imt-ghaziabad-1771055",
-   "note": "Postgraduate/MBA only, teams of 2–3. Registration closes 24 Oct."
+   "url": "https://unstop.com/competitions/the-good-the-bad-and-the-business-hr-track-the-good-the-bad-and-the-business-imt-ghaziabad-1771055"
+  },
+  {
+   "kind": "internship",
+   "title": "Recruitment & Talent Acquisition Internship",
+   "org": "LetzStepIn Private Limited",
+   "location": "Abrama, Gujarat (Hybrid)",
+   "pay": "₹10,000/month",
+   "deadline": "2026-10-30",
+   "deadlineText": "",
+   "source": "Unstop",
+   "foundAt": "2026-10-23T09:00:00+05:30",
+   "note": "Recruitment/TA role open to PG and management students. Full-time now; check dates.",
+   "id": "us-1771273",
+   "url": "https://unstop.com/internships/recruitment-talent-acquisition-internship-letzstepin-private-limited-1771273"
   },
   {
    "kind": "internship",
@@ -347,9 +697,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Edtech startup. Full-time now; check dates.",
    "id": "us-1771629",
-   "url": "https://unstop.com/internships/talent-acquisition-internship-teachmint-1771629",
-   "note": "Edtech startup. Full-time now; check dates."
+   "url": "https://unstop.com/internships/talent-acquisition-internship-teachmint-1771629"
   },
   {
    "kind": "internship",
@@ -361,9 +711,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Same role is also on Internshala. Full-time now; check dates.",
    "id": "us-1772533",
-   "url": "https://unstop.com/internships/talent-acquisition-internship-fundsindia-1772533",
-   "note": "Same role is also on Internshala. Full-time now; check dates."
+   "url": "https://unstop.com/internships/talent-acquisition-internship-fundsindia-1772533"
   },
   {
    "kind": "internship",
@@ -375,9 +725,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Full-time now; check dates.",
    "id": "us-1772930",
-   "url": "https://unstop.com/internships/hr-operations-internship-pioneer-e-solutions-pvtltd-1772930",
-   "note": "Full-time now; check dates."
+   "url": "https://unstop.com/internships/hr-operations-internship-pioneer-e-solutions-pvtltd-1772930"
   },
   {
    "kind": "internship",
@@ -389,9 +739,9 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "Recruiting-focused: sourcing, screening, scheduling. Listed as full-time now; ask about an April–June stint.",
    "id": "us-1772989",
-   "url": "https://unstop.com/internships/hr-intern-bain-company-1772989",
-   "note": "Recruiting-focused: sourcing, screening, scheduling. Listed as full-time now; ask about an April–June stint."
+   "url": "https://unstop.com/internships/hr-intern-bain-company-1772989"
   },
   {
    "kind": "competition",
@@ -403,9 +753,23 @@
    "deadlineText": "",
    "source": "Unstop",
    "foundAt": "2026-10-23T01:50:00+05:30",
+   "note": "For MBA students; theme is AI, automation and people analytics in HR. Teams of 2–3.",
    "id": "us-1773050",
-   "url": "https://unstop.com/competitions/hrectify-2026-hr-case-competition-nmims-1773050",
-   "note": "For MBA students; theme is AI, automation and people analytics in HR. Teams of 2–3."
+   "url": "https://unstop.com/competitions/hrectify-2026-hr-case-competition-nmims-1773050"
+  },
+  {
+   "kind": "internship",
+   "title": "Human Resource Internship",
+   "org": "Stellaraa EduTech",
+   "location": "Salem",
+   "pay": "₹10,000–15,000/month",
+   "deadline": "2026-11-06",
+   "deadlineText": "",
+   "source": "Unstop",
+   "foundAt": "2026-10-24T08:22:35+05:30",
+   "note": "3-month in-office HR internship; open to postgraduates/management students, possible extension or full-time conversion. Full-time now; check dates.",
+   "id": "us-1773864",
+   "url": "https://unstop.com/internships/human-resource-internship-stellaraa-edutech-1773864"
   }
  ]
 }
